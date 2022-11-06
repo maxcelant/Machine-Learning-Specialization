@@ -24,13 +24,11 @@ def compute_gradient(x, y, w, b):
     # we will then multiply these values by the learning rate in the gradient descent formula
     for i in range(m):
         y_hat = w * x[i] + b
-        dj_dw_i = (y_hat - y[i]) * x[i]
-        dj_db_i = (y_hat - y[i])
-        dj_db += dj_db_i
-        dj_dw += dj_dw_i
+        dj_dw += (y_hat - y[i]) * x[i]
+        dj_db += (y_hat - y[i])
         
-    dj_dw = dj_dw / m
-    dj_db = dj_db / m
+    dj_dw /= m
+    dj_db /= m
     
     return dj_dw, dj_db
 
