@@ -1,6 +1,6 @@
-def cost_function(X, y, w, b):
-  import numpy as np
+import numpy as np
 
+def cost_function(X, y, w, b):
   total_cost = 0
   for i in range(m):                                           # simplified cost function
     z = np.dot(w, X[i]) + b                                    # calculate prediction z(i)
