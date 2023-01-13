@@ -1,0 +1,2 @@
+- Transfer the parameters from the first layers (basically all the layers except the last one) to your new model. Assuming the problem that the original model tried to solve is similar to yours!
+![[Pasted image 20221126230257.png|center]]

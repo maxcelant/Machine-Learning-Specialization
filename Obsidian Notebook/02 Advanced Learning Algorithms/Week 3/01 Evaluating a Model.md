@@ -1,0 +1,5 @@
+-  In order to test the accuracy of your model, you can separate your data set into two sets:
+	- 70% - training set ![[Pasted image 20221119224530.png]]
+	- 30% - test set ![[Pasted image 20221119224537.png]]
+- if the cost or `J` of the test set is high, this means the model is not good at generalizing for new data
+- In Logistic Regression problems, if yhat is not equal to y, then we can mark it. At the end, we can tally how many test examples were misclassified

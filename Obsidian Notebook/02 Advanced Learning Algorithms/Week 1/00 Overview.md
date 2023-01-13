@@ -1,0 +1,3 @@
+- Remember that for each X input vector, you need a W vector of the same size, so you can dot product them
+- This is why a X of length 400 needs a W of length 400.
+- If there are 25 of these units/neurons then the output will be a `a_out` vector of length 25

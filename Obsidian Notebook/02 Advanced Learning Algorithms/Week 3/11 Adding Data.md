@@ -1,0 +1,2 @@
+- If you know which specific part your model is struggling with, getting data of that type could drastically improve it!
+- **Data Augmentation** is existing the current training examples to create a new training example

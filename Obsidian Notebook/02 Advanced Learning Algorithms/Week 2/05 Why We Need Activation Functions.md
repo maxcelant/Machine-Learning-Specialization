@@ -1,0 +1,2 @@
+- If we didn't use any activation function at all, we would get the same output as **linear regression**
+- **DO NOT** use linear activations in hidden layers
