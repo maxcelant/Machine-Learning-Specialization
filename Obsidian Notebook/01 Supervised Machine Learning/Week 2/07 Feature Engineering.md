@@ -1,0 +1,2 @@
+- The idea of using intuition to design new features, by transforming or combining original features
+- **Example:** using frontage and depth of a house, we can also combine them to create area of a house as a 3rd feature

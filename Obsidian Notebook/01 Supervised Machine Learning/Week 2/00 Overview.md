@@ -1,0 +1,19 @@
+- This week we learned about [[02 Vectorization]], which allows us to quickly perform the dot-product of the weights and the features `w1 * x1`
+	- This is made simple with `np.dot(w, X)`
+- `X` will be a matrix with the rows being the individual training example and the columns being the features
+- We learned about [[01 Multiple Features]], in which we utilize Vectorization
+- `n` is the number of features in each example
+- `m` is the number of training examples
+- ![[Pasted image 20221105145342.png]]
+	- `i (superscript)` represents the `i-th` training example
+	- `j (subscript)` represents the `j-th` feature
+- `w` is a vector, or an array of features for one training example (its usually denoted with the arrow above it.)
+	- `w = ("Size", "Bedrooms", "Years", "Floors")`
+	- `w = [ 100, 2, 5, 2 ]`
+- We learned about [[04 Feature Scaling]], which allows us to 'normalize' our data so its easier for our [[04 Gradient Descent]] to work correctly
+	- This works by normalizing using the mean, z-score or simply feature scaling
+	- Feature scaling is helpful when one feature is much larger (or smaller) than another feature.
+- We learned about [[06 Choosing the Learning Rate]] by looking at the `J(w,b)` function over iterations and seeing if the line continously decreases
+- We learned about [[07 Feature Engineering]], which basically means combining 2 or more features into new features that could be useful
+- Another useful feature is [[08 Polynomial Regression]], which basically means that sometimes a straight line doesn't fit the best line for the data, so using `x^2, x^3, ...x^n` may work better!
+- Finally, we learned some very useful tools with [[09 Scikit-learn]]

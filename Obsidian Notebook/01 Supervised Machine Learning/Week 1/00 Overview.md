@@ -1,0 +1,7 @@
+- The [[03 Cost Function Formula]] is used to find the current difference from prediction to actual target for EACH input feature in the model
+	- **NOTE:** You can also think of "Cost" as "Error"
+	- Were trying to get as close to zero as possible
+- If we do this for every value (within a range) for the inputs `w` and `b`, then we get a curve with a minimum.
+	- Note that if we have both `w` and `b`, then this will be a 3D map
+- Once we have this curve, we can minimize AKA find the minimum of the slope using [[04 Gradient Descent]]
+- With Gradient Descent, we slowly make our way towards the minimum (or a minima) on the graph using a learning rate (alpha) TIMES  and a number of epochs.
